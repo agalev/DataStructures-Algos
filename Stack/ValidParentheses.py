@@ -18,15 +18,12 @@ def isValid(s: str) -> bool:
         elif len(stack) > 0 and map[s[c]] == stack[-1]:
             stack.pop()
         else:
-            print(False)
             return False
     if len(stack) == 0:
-        print(True)
         return True
     else:
-        print(False)
         return False
 
-isValid("()") # True
-isValid("()[]{}") # True
-isValid("(]") # False
+print(isValid("()")) # True
+print(isValid("()[]{}")) # True
+print(isValid("(]")) # False

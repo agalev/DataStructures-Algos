@@ -4,11 +4,9 @@ def containsDuplicate(nums) -> bool:
     map = {}
     for i in nums:
         if i in map:
-            print(True)
             return True
         else:
             map[i] = 1
-    print(False)
     return False
 
-containsDuplicate([1,2,3,1]) # True
+print(containsDuplicate([1,2,3,1])) # True

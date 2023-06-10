@@ -13,11 +13,9 @@ def isPalindrome(s: str) -> bool:
     # check if the filtered string is a palindrome
     while left < right:
         if filtered[left] != filtered[right]:
-            print(False)
             return False
         left+=1
         right-=1
-    print(True)
     return True
 
-isPalindrome("A man, a plan, a canal: Panama") # True
+print(isPalindrome("A man, a plan, a canal: Panama")) # True
