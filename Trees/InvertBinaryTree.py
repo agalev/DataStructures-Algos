@@ -5,6 +5,7 @@ class TreeNode:
         self.right = right
     def __repr__(self) -> str:
         return f"{str(self.val)} -> {str(self.left)} -> {str(self.right)}"
+    
 def invertTree(root: TreeNode) -> TreeNode:
     if not root:
         return None
