@@ -18,3 +18,4 @@ def interpret(command: str) -> str:
 print(interpret('G()(al)')) # return 'Goal'
 print(interpret('G()()()()(al)')) # return 'Gooooal'
 print(interpret('(al)G(al)()()G')) # return 'alGalooG'
+print(interpret('G')) # return 'G'
