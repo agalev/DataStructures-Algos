@@ -15,3 +15,4 @@ def maxDepth(s: str) -> int:
 print(maxDepth('(1+(2*3)+((8)/4))+1')) # return 3
 print(maxDepth('(1)+((2))+(((3)))')) # return 3
 print(maxDepth('1+(2*3)/(2-1)')) # return 1
+print(maxDepth('1')) # return 0
