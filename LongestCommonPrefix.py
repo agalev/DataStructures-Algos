@@ -16,3 +16,4 @@ def longestCommonPrefix(strs: list) -> str:
     return result
 
 print(longestCommonPrefix(["flower","flow","flight"])) # "fl"
+print(longestCommonPrefix(["dog","racecar","car"])) # ""
