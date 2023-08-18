@@ -11,3 +11,4 @@ def finalString(s: str) -> str:
 # Test Cases
 print(finalString('abc')) # return 'abc'
 print(finalString('string')) # return 'rtsng'
+print(finalString('')) # return ''
