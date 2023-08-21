@@ -12,3 +12,4 @@ def finalString(s: str) -> str:
 print(finalString('abc')) # return 'abc'
 print(finalString('string')) # return 'rtsng'
 print(finalString('')) # return ''
+print(finalString('i')) # return 'i'
