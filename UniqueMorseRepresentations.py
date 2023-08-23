@@ -41,3 +41,4 @@ def uniqueMorseRepresentations(words: list[str]) -> int:
 print(uniqueMorseRepresentations(["gin", "zen", "gig", "msg"])) # return 2
 print(uniqueMorseRepresentations(["a"])) # return 1
 print(uniqueMorseRepresentations(["a", "b"])) # return 2
+print(uniqueMorseRepresentations(["ab", "cd"])) # return 2
