@@ -43,3 +43,4 @@ print(uniqueMorseRepresentations(["a"])) # return 1
 print(uniqueMorseRepresentations(["a", "b"])) # return 2
 print(uniqueMorseRepresentations(["ab", "cd"])) # return 2
 print(uniqueMorseRepresentations(["ab", "cd", "ab"])) # return 2
+print(uniqueMorseRepresentations(["ab", "cd", "ab", "cd"])) # return 2
