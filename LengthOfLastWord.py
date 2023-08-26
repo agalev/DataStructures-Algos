@@ -8,3 +8,4 @@ print(lengthOfLastWord(" ")) # 0
 print(lengthOfLastWord("a")) # 1
 print(lengthOfLastWord("")) # 0
 print(lengthOfLastWord("a b")) # 1
+print(lengthOfLastWord("a b c")) # 1
