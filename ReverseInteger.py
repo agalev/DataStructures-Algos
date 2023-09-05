@@ -19,3 +19,4 @@ def reverse(x: int) -> int:
 print(reverse(123)) # 321
 print(reverse(-123)) # -321
 print(reverse(120)) # 21
+print(reverse(0)) # 0
