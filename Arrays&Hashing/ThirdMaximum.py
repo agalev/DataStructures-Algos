@@ -10,3 +10,4 @@ def thirdMax(nums: list) -> int:
 print(thirdMax([3,2,1])) # 1
 print(thirdMax([1,2])) # 2
 print(thirdMax([2,2,3,1])) # 1
+print(thirdMax([2,2,3,1])) # 1
